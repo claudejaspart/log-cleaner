@@ -1,12 +1,12 @@
 # log-cleaner
 A log cleaning utility in bash
 
-Répertoire cible : $HOME/logs (car var/log est trop compliqué à gérer avec tous les processus par défaut qui surveille ce répertoire) 
+Target directory : $HOME/logs (coz var/log too complicated to handle correctly for me) 
 
-Premier lancement sans options : l’utilitaire installe les fichiers et répertoires nécessaires, et se place dans le crontab. Cette installation peut être configurée au préalable avec le fichier $HOME/.cleaner.conf  (répertoire contenant les logs, taille min des fichiers et dernière date d’accès) 
+First exec without any flags : installs the app and adds an entry in crontab. The installation process can be configured with selected options in the following file : $HOME/.cleaner.conf  (available options : select the log directory, min file size and last access) 
 
-Lancement avec l’option -u : désinstalle complètement l’utilitaire et tous les logs, et enlève l’entrée dans le crontab. 
+Exec with the -u flag : uninstalls the app and removes the crontab entry.
 
-Lancement avec l’option -s (pour stash) : place les logs filtrés dans $HOME/logs dans $HOME/logs/stash. Un index issu d’une date (nombre de secondes depuis EPOCH aka 01/01/1970) est préfixé pour éviter les collisions de fichiers de logs aux noms identiques.  
+Exec with the -s (s for stash) : moves the filtered log files $HOME/logs dans $HOME/logs/stash. A time related prefix (number of secs since jan 1, 1970) is added to avoid collisions between files with the same name.
 
-Lancer l’utilitaire avec –h pour l’aide et le reste des options. 
+Exec with the -h flag to get some more info.
