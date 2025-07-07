@@ -3,7 +3,7 @@
 ##############################################################
 #    log cleaner utility                                     #
 #                                                            #
-#    Author  : Claude Jaspart 						         #
+#    Author  : Claude Jaspart 			             #
 #    Contact : claude.a.jaspart at gmail.com                 #
 #    Version : 0.99                                          #
 #    Fil rouge M2I - Formation consultant DevOps             #
@@ -13,16 +13,16 @@
 
 ###############################################################
 # PARAMETERS                                                  #
-# -c : Configure the cleaner 								  #
-# -r : Restore files  			      						  #
-# -d : Delete files                 						  #
+# -c : Configure the cleaner 				      #
+# -r : Restore files  			      		      #
+# -d : Delete files                 			      #
 # -v : Verbose mode                                           #
 # -h : Help                                                   #
 ###############################################################
 
 ###############################################################
 # EXIT CODES                                                  #
-#  1 : Invalid command										  #
+#  1 : Invalid command					      #
 #  2 : Trying to restore and delete at the same time 	      #
 #  3 : Unable to clear the content of a file                  #
 ###############################################################
@@ -30,7 +30,7 @@
 ###############################################################
 # TODO                                                        #
 # Display errors and success with color and cross/checkmark   #
-# Review error codes and  									  #
+# Review error codes and  				      #
 ###############################################################
 
 
