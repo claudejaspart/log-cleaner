@@ -1,5 +1,6 @@
-# log-cleaner
-A log cleaning utility in bash
+# log-cleaner : a finished project written during my 2024-25 devops training
+
+A log cleaning utility written in bash : remove log files by size or by access date.
 
 Target directory : $HOME/logs (coz var/log too complicated to handle correctly for me) 
 
