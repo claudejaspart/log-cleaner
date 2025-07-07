@@ -2,7 +2,7 @@
 
 A log cleaning utility written in bash : remove log files by size or by access date.
 
-Target directory : $HOME/logs (coz var/log too complicated to handle correctly for me) 
+Target directory : $HOME/logs
 
 First exec without any flags : installs the app and adds an entry in crontab. The installation process can be configured with selected options in the following file : $HOME/.cleaner.conf  (available options : select the log directory, min file size and last access) 
 
